@@ -1,5 +1,6 @@
 package com.glemontree.duitang.ui;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -19,7 +20,7 @@ import butterknife.InjectView;
  * Created by Administrator on 2016/10/28.
  */
 
-public class WelcomeActivity extends AppCompatActivity {
+public class WelcomeActivity extends Activity {
     @InjectView(R.id.welcome_image)
     ImageView welomeImg;
 
