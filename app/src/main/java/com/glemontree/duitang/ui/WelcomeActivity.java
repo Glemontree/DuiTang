@@ -20,7 +20,7 @@ import butterknife.InjectView;
  * Created by Administrator on 2016/10/28.
  */
 
-public class WelcomeActivity extends Activity {
+public class WelcomeActivity extends AppCompatActivity {
     @InjectView(R.id.welcome_image)
     ImageView welomeImg;
 

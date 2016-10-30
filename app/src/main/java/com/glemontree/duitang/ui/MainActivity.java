@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         switch (id) {
             case android.R.id.home:
-//                Intent i = new Intent(this, PersonActivity.class);
-//                startActivity(i);
+                Intent i = new Intent(this, PersonActivity.class);
+                startActivity(i);
                 break;
             case R.id.action_settings:
                 break;
